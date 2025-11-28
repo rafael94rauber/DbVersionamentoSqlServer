@@ -1,3 +1,4 @@
+
 ALTER   procedure [dbo].[P_RETORNA_TOTAL_CLIENTE]
 as 
 begin 
