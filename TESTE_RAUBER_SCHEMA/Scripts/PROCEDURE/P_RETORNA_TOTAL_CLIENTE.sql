@@ -5,5 +5,6 @@ begin
 	select 
 		COUNT(1) AS 'Total Clientes'
 	,	MAX(DATA_HORA) AS 'ultimo Cadastro Realizado'
+	,	MIN(DATA_HORA) AS 'Primeiro Registro'
 	from CLIENTE
 end
